@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Default Layout matches expectations 1`] = `
+<head>
+  Object {}
+  Object {
+    "lang": "en",
+  }
+  <title
+    data-react-helmet={true}
+  >
+    Test Title
+  </title>
+</head>
+
+<main>
+  <span>
+    Test Content
+  </span>
+</main>
+`;
