@@ -25,6 +25,24 @@
     "url": "https://github.com/keplersj/gatsby-theme-sputnik/issues"
   },
   "homepage": "https://github.com/keplersj/gatsby-theme-sputnik#readme",
+  "eslintConfig": {
+    "extends": [
+      "starstuff",
+      "starstuff/react",
+      "plugin:jest/recommended"
+    ],
+    "env": {
+      "browser": true,
+      "node": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 9,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    }
+  },
   "stylelint": {
     "extends": [
       "stylelint-config-starstuff"
@@ -54,10 +72,8 @@
   },
   "devDependencies": {
     "eslint": "^5.16.0",
-    "eslint-config-prettier": "^6.3.0",
+    "eslint-config-starstuff": "^1.0.0",
     "eslint-plugin-jest": "^22.17.0",
-    "eslint-plugin-prettier": "^3.1.1",
-    "eslint-plugin-react": "^7.14.3",
     "gatsby": "^2.15.20",
     "jest": "^24.9.0",
     "jest-preset-gatsby": "^1.0.8",
