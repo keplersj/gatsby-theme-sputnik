@@ -25,6 +25,11 @@
     "url": "https://github.com/keplersj/gatsby-theme-sputnik/issues"
   },
   "homepage": "https://github.com/keplersj/gatsby-theme-sputnik#readme",
+  "stylelint": {
+    "extends": [
+      "stylelint-config-starstuff"
+    ]
+  },
   "remarkConfig": {
     "plugins": [
       "preset-lint-starstuff"
@@ -68,9 +73,6 @@
     "remark-preset-lint-starstuff": "^1.0.0",
     "semantic-release": "^15.13.24",
     "stylelint": "^11.0.0",
-    "stylelint-config-prettier": "^6.0.0",
-    "stylelint-config-recommended": "^3.0.0",
-    "stylelint-config-standard": "^19.0.0",
-    "stylelint-prettier": "^1.1.1"
+    "stylelint-config-starstuff": "^1.0.1"
   }
 }
