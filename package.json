@@ -4,7 +4,8 @@
   "license": "ISC",
   "scripts": {
     "test": "yarn workspace gatsby-theme-sputnik test",
-    "develop": "yarn workspace example develop"
+    "develop": "yarn workspace example develop",
+    "build": "yarn workspace example build"
   },
   "workspaces": [
     "gatsby-theme-sputnik",

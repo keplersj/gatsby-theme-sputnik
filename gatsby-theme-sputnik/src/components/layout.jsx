@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import { useStaticQuery, graphql } from "gatsby";
 import { Helmet } from "react-helmet";
 
+import "modern-normalize";
 import "typeface-lato";
 import "./layout.css";
 
