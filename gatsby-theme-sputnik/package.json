@@ -1,0 +1,93 @@
+{
+  "name": "gatsby-theme-sputnik",
+  "version": "0.0.0-development",
+  "description": "Simple Gatsby theme to power landing pages built with MDX",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/keplersj/gatsby-theme-sputnik.git"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-theme",
+    "mdx",
+    "website",
+    "landing-page",
+    "react"
+  ],
+  "author": "Kepler Sticka-Jones <kepler@stickajones.org>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keplersj/gatsby-theme-sputnik/issues"
+  },
+  "homepage": "https://github.com/keplersj/gatsby-theme-sputnik#readme",
+  "eslintConfig": {
+    "extends": [
+      "starstuff",
+      "starstuff/react",
+      "plugin:jest/recommended"
+    ],
+    "env": {
+      "browser": true,
+      "node": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 9,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    }
+  },
+  "stylelint": {
+    "extends": [
+      "stylelint-config-starstuff"
+    ]
+  },
+  "remarkConfig": {
+    "plugins": [
+      "preset-lint-starstuff"
+    ]
+  },
+  "dependencies": {
+    "@mdx-js/mdx": "^1.4.5",
+    "@mdx-js/react": "^1.4.5",
+    "gatsby-plugin-manifest": "^2.2.18",
+    "gatsby-plugin-mdx": "^1.0.43",
+    "gatsby-plugin-offline": "^3.0.8",
+    "gatsby-plugin-react-helmet": "^3.1.8",
+    "gatsby-plugin-robots-txt": "^1.5.0",
+    "gatsby-plugin-sitemap": "^2.2.14",
+    "react-helmet": "^5.2.1",
+    "typeface-lato": "0.0.75"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.13.13",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-starstuff": "^1.0.0",
+    "eslint-plugin-jest": "^22.17.0",
+    "gatsby": "^2.15.20",
+    "jest": "^24.9.0",
+    "jest-preset-gatsby": "^1.0.8",
+    "jest-runner-eslint": "^0.7.4",
+    "jest-runner-prettier": "^0.3.1",
+    "jest-runner-remark": "^1.0.0",
+    "jest-runner-stylelint": "^2.2.0",
+    "jest-serializer-react-helmet": "^1.0.2",
+    "prettier": "^1.18.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-test-renderer": "^16.9.0",
+    "remark-preset-lint-starstuff": "^1.0.0",
+    "semantic-release": "^15.13.24",
+    "stylelint": "^11.0.0",
+    "stylelint-config-starstuff": "^1.0.1"
+  }
+}
