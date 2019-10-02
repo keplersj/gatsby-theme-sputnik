@@ -25,6 +25,7 @@ jobs:
         with:
           node-version: 12
           registry-url: https://registry.npmjs.org/
+      - run: yarn install
       - name: semantic-release
         run: yarn workspace gatsby-theme-sputnik semantic-release
         env:
