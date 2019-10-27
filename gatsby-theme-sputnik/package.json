@@ -73,7 +73,7 @@
   "devDependencies": {
     "eslint": "^6.5.1",
     "eslint-config-starstuff": "^1.0.0",
-    "eslint-plugin-jest": "^22.17.0",
+    "eslint-plugin-jest": "^23.0.0",
     "gatsby": "^2.15.20",
     "jest": "^24.9.0",
     "jest-preset-gatsby": "^1.0.8",
