@@ -75,7 +75,7 @@
     "eslint-config-starstuff": "^1.0.0",
     "eslint-plugin-jest": "^23.0.0",
     "gatsby": "^2.15.20",
-    "jest": "^24.9.0",
+    "jest": "^25.1.0",
     "jest-preset-gatsby": "^1.0.8",
     "jest-runner-eslint": "^0.7.4",
     "jest-runner-prettier": "^0.3.1",
