@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 const React = require("react");
 const gatsby = jest.requireActual("gatsby");
 
@@ -8,6 +7,7 @@ module.exports = {
   Link: jest.fn().mockImplementation(
     // these props are invalid for an `a` tag
     ({
+      /* eslint-disable no-unused-vars */
       activeClassName,
       activeStyle,
       getProps,
@@ -15,6 +15,7 @@ module.exports = {
       partiallyActive,
       ref,
       replace,
+      /* eslint-enable no-unused-vars */
       to,
       ...rest
     }) =>
