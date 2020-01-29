@@ -7,7 +7,7 @@
     "develop": "gatsby develop",
     "build": "gatsby build"
   },
-  "dependencies": {
+  "devDependencies": {
     "gatsby": "^2.15.28",
     "gatsby-theme-sputnik": "^1.0.9",
     "react": "^16.10.1",
