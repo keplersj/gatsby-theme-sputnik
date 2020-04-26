@@ -1,4 +1,4 @@
-module.exports = options => ({
+module.exports = (options) => ({
   plugins: [
     "gatsby-plugin-robots-txt",
     "gatsby-plugin-sitemap",
@@ -6,15 +6,15 @@ module.exports = options => ({
       resolve: "gatsby-plugin-mdx",
       options: {
         defaultLayouts: {
-          default: require.resolve("./src/components/layout.jsx")
-        }
-      }
+          default: require.resolve("./src/components/layout.jsx"),
+        },
+      },
     },
     "gatsby-plugin-react-helmet",
     {
       resolve: "gatsby-plugin-manifest",
-      options: options.manifestOptions
+      options: options.manifestOptions,
     },
-    "gatsby-plugin-offline"
-  ]
+    "gatsby-plugin-offline",
+  ],
 });

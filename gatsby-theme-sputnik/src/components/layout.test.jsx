@@ -7,9 +7,9 @@ beforeEach(() => {
   useStaticQuery.mockImplementation(() => ({
     site: {
       siteMetadata: {
-        title: "Test Title"
-      }
-    }
+        title: "Test Title",
+      },
+    },
   }));
 });
 

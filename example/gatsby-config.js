@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "Example Sputnik Site",
-    siteUrl: "http://example.dev/"
+    siteUrl: "http://example.dev/",
   },
-  plugins: ["gatsby-theme-sputnik"]
+  plugins: ["gatsby-theme-sputnik"],
 };
