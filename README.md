@@ -1,3 +1,9 @@
+# Archived & Deprecated
+
+This theme is archived and deprecated. Any use of this package is unsupported.
+
+---
+
 # gatsby-theme-sputnik Workspace
 
 This repo contains both the source code for `gatsby-theme-sputnik` and an example site using `gatsby-theme-sputnik`.
